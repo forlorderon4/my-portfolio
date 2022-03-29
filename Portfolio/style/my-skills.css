@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;    
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+}
+
+html, body, main{
+    height: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
+body, nav{
+    background-image: url(../img/sand.jpg);
+    background-size: cover;
+}
+
+/*  my skills */
+
+.my-skills{
+    height: 100%;
+    display: flex;
+}
+
+.my-skills-wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.my-skills-title{
+    font-size: 32px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.my-skill{
+    font-size: 16px;
+    color: #727272;
+    color: white;
+}
+
+.my-skills-text{
+    width: 50%;
+    color: white;
+}
+
+.my-skill-container{
+    width: 150%;
+    height: 20px ;
+    background-color: #C4C4C4;
+}
+
+
+.my-skill-bar1{
+    width: 3%;
+    height: 20px;
+    background-color: #34547A;
+}
+
+.my-skill-bar2{
+    width: 30%;
+    height: 20px;
+    background-color: #34547A;
+}
+
+.my-skill-bar3{
+    width: 30%;
+    height: 20px;
+    background-color: #34547A;
+}
+
+.my-skill-bar4{
+    width: 10%;
+    height: 20px;
+    background-color: #34547A;
+}
+
+
+
+.my-skills-item{
+    margin-bottom: 30px;
+}
+
+.my-skills-list{
+    margin-right: 200px;
+    
+}
+
+.myskills{
+    font-weight: bold;
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+}
+
+html, body, main{
+    height: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;  
+    transition: 0.5s;  
+}
+
+a:hover{
+    transform: scale(1.1);
+}
+
+
+
+body, nav{
+    background-image: url(../img/stars.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 105px;
+
+}
+
+/* my targets */
+
+h2{
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    
+}
+
+li{
+    color: white;
+    margin-left: 375px;
+    margin-top: 68px;
+    font-size: 20px;
+}
+
+.mytargets{
+    font-weight: bold;
+}
+
+
